@@ -4,9 +4,9 @@
   align-items: flex-end;
   text-align: top right;
   padding: 20px;
-  background-color: white
+  background-color: white;
   
-  ;
+  
 }
 .Home{
   margin-right: 90px;
@@ -92,6 +92,10 @@ text-decoration: underline;
   font-size: larger;
 }
 
+.innovation2{
+  margin-left: -600px;
+}
+
 .background-rectangle {
   background-color: rgb(61, 3, 3); /* Background color (use your preferred color code) */
   color: #ffd75f; /* Text color */
@@ -130,7 +134,7 @@ p3 {
       .apply-here-link:hover {
           background-color: #3498db; /* Hover background color */
           color: #fff;
-       } /* Hover text color */</style
+       } /* Hover text color */style
 
        /* Resetting default margin and padding */
 * {
@@ -146,7 +150,7 @@ p3 {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin-top: 0px;
+  margin-top: 100px;
 }
 
 .foot {

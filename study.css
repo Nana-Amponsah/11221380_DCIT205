@@ -1,0 +1,183 @@
+.head{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  text-align: top right;
+  padding: 20px;
+  background-color: white;
+  
+  
+}
+.Home{
+  margin-right: 90px;
+  color: black;
+  padding: 15px;
+  font-weight: 700;
+  font-size: 15px;
+  border: none;
+  background-color: white;
+}
+.study{
+  margin-right: 90px;
+  margin-left: 10px;
+  color: black;
+  padding: 15px;
+  font-weight: 700;
+  font-size: 15px;
+  border: none;
+  background-color: white;
+}
+.staff{
+  margin-right: 120px;
+  margin-left: 50px;
+  padding: 15px;
+  font-weight: 700;
+  color: black;
+  font-size: 15px;
+  border: none;
+  background-color: white;
+  
+}
+.research-unit{
+  margin-right: 120px;
+  margin-left: 50px;
+  padding: 15px;
+  font-size: 15px;
+  text-decoration: none;
+  color: #000;
+  border: none;
+  font-weight: 450;
+  background-color: white;
+}
+.logo{
+  width: 300px;
+  height: auto;
+}
+
+.home-title,
+.video1{
+  max-width: 950px;
+  margin-left:100px;
+  height: 550px;
+  width: 300%;
+  
+
+}
+.header3 {
+  font-weight: bold;
+  font-size: 60px;
+  
+  margin-left: 45px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.header4{
+  display: inline-block;
+  width: 600px;
+  margin-left: 350px;
+  vertical-align: top;
+  
+}
+.homepic {
+  width: 400px;
+  width: 400px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  height: 450px;
+}
+
+.header5{
+  margin-left: 55px;
+  opacity: 0.5;
+}
+
+.header6{
+  background-color: rgb(186, 64, 64);
+  color: white;
+  font-size: 16px;
+  margin-left: 55px;
+  height: 60px;
+  width: 200;
+  border: none;
+}
+.header7{
+  font-size: 36;
+  margin-left: 1px;
+  margin-top: 120;
+  font-weight: 500px;
+  line-height: 46px;
+}
+
+.header8{
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-family: 'Montserrat', Verdana, Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 400px;
+  color: #48484A;
+}
+
+.foot {
+  margin-bottom: 20px;
+  text-align: center;
+  flex: 1;
+}
+
+.foot h4 {
+  color: #fff;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+.foot {
+  margin-bottom: 20px;
+  text-align: center;
+  flex: 1;
+}
+
+.foot h4 {
+  color: #fff;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.foot ul {
+  list-style: none;
+  padding: 0;
+}
+
+.foot li {
+  margin-bottom: 8px;
+}
+
+.foot a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.foot a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .footer {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .foot {
+      width: 100%;
+      margin-top: 0%;
+  }
+}
